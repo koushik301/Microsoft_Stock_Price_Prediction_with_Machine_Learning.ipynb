@@ -9,6 +9,13 @@ The objective of this project is to analyze historical stock data and evaluate t
 - **Feature Engineering:** Preprocessing data for supervised learning and time-series models.
 - **Modeling:** Implementing statistical, machine learning, and deep learning architectures.
 
+
+## 📈 Key Insights & Business Impact
+* **Volatality Handling:** While statistical models like **Auto-ARIMA** provided a solid baseline, the **LSTM (Long Short-Term Memory)** network demonstrated superior performance in capturing non-linear trends and sudden market shifts.
+* **Feature Importance:** Exploratory analysis revealed that closing prices are heavily influenced by long-term momentum, validating the use of deep learning for sequential data.
+* **Practical Application:** This pipeline serves as a foundational tool for quantitative analysis, helping to visualize potential risk and return scenarios for MSFT stock based on historical patterns.
+
+
 ## 🛠️ Tech Stack & Libraries
 The project is built using Python and the following key libraries:
 * **Data Manipulation:** `pandas`, `numpy`
